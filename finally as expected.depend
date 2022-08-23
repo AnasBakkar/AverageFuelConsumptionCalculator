@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1596447375 source:c:\users\hp\desktop\finally as expected\main.cpp
+	<iostream>
+	<algorithm>
+
