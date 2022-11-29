@@ -20,14 +20,10 @@ void inserttree(int n)
         if(a[i][1]!=-1)
         {
             height[a[i][1]] = height[parent[a[i][1]]]+1;
-            //height[a[i][2]] =  height[parent[a[i][2]]]+1;
-            //cout<<"height of : "<<a[i][1]<<" is : "<<height[a[i][1]]<<endl;
-            //cout<<"height of : "<<a[i][2]<<" is : "<<height[a[i][2]]<<endl;
         }
         if(a[i][2]!=-1)
         {
             height[a[i][2]] =  height[parent[a[i][2]]]+1;
-            //cout<<"height of : "<<a[i][2]<<" is : "<<height[a[i][2]]<<endl;
         }
     }
 }
